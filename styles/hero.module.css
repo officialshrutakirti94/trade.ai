@@ -1,0 +1,48 @@
+.heroWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  
+   
+    margin-top: -2rem;
+}
+
+.mainHeader{
+    color: #1D1E20;
+text-align: center;
+/* font-family: "Helvetica Neue"; */
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: 1; /* 98.133% */
+letter-spacing: -2px;
+}
+
+.subHeader{
+    color: #31373D;
+text-align: center;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 30.8px; /* 140% */
+letter-spacing: -0.3px;
+margin-top: -3.5rem;
+}
+
+.bttn{
+    cursor: pointer;
+    display: inline-flex;
+padding: 8px 16.52px 8px 17px;
+justify-content: center;
+align-items: center;
+border-radius: 12px;
+border: 1px solid #505967;
+background: #1D1E20;
+box-shadow: 0px 1px 0px 0px rgba(27, 31, 35, 0.20);
+font-weight: bold;
+max-width: 300px; /* Set a max-width or specific width */
+    margin: 0 auto; /* Center the button */
+
+}
